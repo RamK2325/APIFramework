@@ -41,9 +41,6 @@
     <Reference Include="BoDi, Version=1.4.1.0, Culture=neutral, PublicKeyToken=ff7cd5ea2744b496, processorArchitecture=MSIL">
       <HintPath>..\packages\BoDi.1.4.1\lib\net45\BoDi.dll</HintPath>
     </Reference>
-    <Reference Include="CommomLibrary">
-      <HintPath>..\CommomLibrary\bin\Debug\CommomLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Crc32C.NET, Version=1.0.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Crc32C.NET.1.0.5.0\lib\net20\Crc32C.NET.dll</HintPath>
     </Reference>
@@ -474,7 +471,12 @@
     <Compile Include="Steps\PutValidRequestForSingleUserSteps.cs" />
     <Compile Include="Utils\UserInformation.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CommomLibrary\CommomLibrary.csproj">
+      <Project>{6cc57bb8-9cc6-4d69-ab94-daf1a6b89e53}</Project>
+      <Name>CommomLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Features\GetInvalidUserNotFound.feature" />
