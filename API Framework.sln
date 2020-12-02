@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReqRes", "ReqRes\ReqRes.csproj", "{A47F4060-E83C-450E-8F34-4E5BA818146F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommomLibrary", "CommomLibrary\CommomLibrary.csproj", "{6CC57BB8-9CC6-4D69-AB94-DAF1A6B89E53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A47F4060-E83C-450E-8F34-4E5BA818146F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47F4060-E83C-450E-8F34-4E5BA818146F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47F4060-E83C-450E-8F34-4E5BA818146F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47F4060-E83C-450E-8F34-4E5BA818146F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC57BB8-9CC6-4D69-AB94-DAF1A6B89E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC57BB8-9CC6-4D69-AB94-DAF1A6B89E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC57BB8-9CC6-4D69-AB94-DAF1A6B89E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC57BB8-9CC6-4D69-AB94-DAF1A6B89E53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEBD4291-9E55-4964-A347-2D44C78020CE}
+	EndGlobalSection
+EndGlobal
